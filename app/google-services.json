@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "601869168584",
+    "firebase_url": "https://randeat-5a40f.firebaseio.com",
+    "project_id": "randeat-5a40f",
+    "storage_bucket": "randeat-5a40f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601869168584:android:2a6c49a14167b818",
+        "android_client_info": {
+          "package_name": "com.marcus.randeat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "601869168584-nl301a58efenf7k03vdfoo02v8ru842d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marcus.randeat",
+            "certificate_hash": "27c1c7a843b4010774079d4b47b15ef7ca89ea3c"
+          }
+        },
+        {
+          "client_id": "601869168584-ghhq6in694nhvrbuei559vmn1ma0u2rh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1zwWmw-7A_9TrIQmCunYgScAwPlxIF_o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "601869168584-ghhq6in694nhvrbuei559vmn1ma0u2rh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

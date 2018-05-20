@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">randeat</string>
+    <string name="textview">安安!</string>
+    <string name="what">要吃甚麼?</string>
+    <string name="example">舉例</string>
+</resources>

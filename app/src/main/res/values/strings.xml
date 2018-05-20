@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">randeat</string>
+    <string name="textview">hello!</string>
+    <string name="what">what</string>
+    <string name="example">example</string>
+
+</resources>
