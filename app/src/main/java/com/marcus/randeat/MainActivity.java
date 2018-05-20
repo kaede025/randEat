@@ -18,21 +18,21 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Random;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements FirebaseAuth.AuthStateListener {
 
     private static final int RC_SIGN_IN = 100;
     private EditText edNumber;
     private Button bExam;
     private Button bEat;
-//    private FirebaseAuth auth;
+    private FirebaseAuth auth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main); //Resource GO TO res
 
-        //auth = FirebaseAuth.getInstance();
-      //  auth.addAuthStateListener(this);
+        auth = FirebaseAuth.getInstance();
+        auth.addAuthStateListener(this);
 
         findViews();
         bEat.setOnClickListener(new View.OnClickListener() {
@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
         }
     }
-/*
+
     @Override
     public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
         FirebaseUser user = firebaseAuth.getCurrentUser();
@@ -124,5 +124,4 @@ public class MainActivity extends AppCompatActivity {
 
         }
     }
-    */
 }
